@@ -1,0 +1,169 @@
+
+:root{ 
+/* -------- COLORS ---------
+/*Primary Blues*/
+--primeLight: #c3fdff;
+--primeMedium: #90caf9;
+--primeDark: #5d99c6;
+
+/*Secondary */
+--secondLight: #b085f5;
+--secondMedium: #7e57c2;
+--secondDark: #4d2c91;
+
+/*Grays*/
+--footerGray: #F5F5F5;
+
+
+/* --------- Page Margins ----------- */
+--leftSide: 20px;
+}
+
+.noSelect
+{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+
+.alert
+{
+	margin: 20px;
+}
+
+h1 
+{
+	font-family: 'Cormorant Unicase', serif;
+}
+
+h6
+{
+	font-family: 'Cormorant Infant', serif;
+	font-size: 14px;
+}
+
+#jpLogoWhite.png
+
+#navbar
+{
+	position: absolute;
+}
+
+#icon
+{
+	position: fixed;
+	margin-top: 20px;
+	margin-left: var(--leftSide);
+}
+
+#scrollNotice
+{
+	position: fixed;
+	margin-top: 85vh;
+	text-align: center;
+	font-family: 'Cormorant Unicase', serif;
+	width: 100%;
+	font-size: 18px;
+}
+
+#title-block
+{
+	right: 0;
+	text-align: right;
+	margin-top: 20px;
+	padding-right: 30px;
+	padding-left: 30px;
+	vertical-align: center;
+	position: absolute;
+	color: white;
+
+}
+
+#sliders {
+	position: absolute;
+	margin-top: 20vh;
+	margin-left: var(--leftSide);
+
+}
+
+
+#summary{
+	padding-top: 20px;
+	font-family: 'Cormorant Infant', serif;
+}
+
+#date {
+	position: absolute;
+	bottom: 10px;
+	text-align: center;
+	padding-left: var(--leftSide);
+	margin: 0;
+	color: white;
+}
+
+#crDate
+{
+	font-family: 'Cormorant Infant', serif;
+}
+
+#footer
+{
+	padding: var(--leftSide);
+	background-color: var(--footerGray);
+	height: 150px;
+}
+
+#parralax
+{
+	background-color: var(--primeDark);
+	
+}
+
+#ex1Slider #ex2Slider #ex3Slider .slider-selection {
+	background: #BABABA;
+
+}
+
+.sliderDesc{
+	color: white;
+
+}
+
+.sliderGroup{
+	padding-bottom: 60px;
+}
+
+.slider-selection {
+	background: white;
+	height: 1px;
+}
+
+.slider-handle {
+	background: white;
+}
+
+.fadeJ {
+	display: none;
+}
+
+.section {
+	height: 90vh;
+	background-color: var(--secondLight);
+}
+
+#banner {
+	position: absolute;
+}
+
+.container-fluid {
+	width: 10vw;
+ }
+
+.bannerImg {
+	width: 10%
+	height: auto;
+}

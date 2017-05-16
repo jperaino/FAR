@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name ="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Infant|Cormorant+Unicase:600" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lora:400i,700" rel="stylesheet">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+
+	
+
+	<!-- Google Analytics -->
+	<script> (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	  ga('create', 'UA-98789994-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
+
+	<title>Jim Peraino - Hyperboloidal Motion</title>
+</head>
+
+<body>
+
+	<div id="navbar">
+		<a href= "http://jimperaino.com/">
+			<img id="icon" src="assets/jpLogoWhite.png" alt="Jim Peraino Logo" style="width:72px;height:72px">
+		</a>
+
+		<div id="scrollNotice" class="noSelect">
+			<p>Scroll</p>
+			<p><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></p>
+		</div>
+
+	</div>
+
+	<div id="sliders" class="noSelect fadeJ">
+	<!-- 	<div class="sliderGroup">
+			<p class="sliderDesc">Height</p>
+			<input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50" data-slider-id="S-seg"/>
+		</div> -->
+
+		<div class="sliderGroup">
+			<p class="sliderDesc">Top rotation</p>
+			<input id="ex2" data-slider-id='ex2Slider' type="text" data-slider-min="-180" data-slider-max="180" data-slider-step="1" data-slider-value="120" data-slider-id="S-rot"/>
+		</div>
+
+		<div class="sliderGroup">
+			<p class="sliderDesc">Offset</p>
+			<input id="ex3" data-slider-id='ex3Slider' type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="40" data-slider-id="S-Offset"/>
+		</div>
+
+		<div class="sliderGroup">
+			<p class="sliderDesc">Stair Length</p>
+			<input id="ex4" data-slider-id='ex4Slider' type="text" data-slider-min="0" data-slider-max="50" data-slider-step=".5" data-slider-value="33" data-slider-id="S-Offset"/>
+		</div>
+
+	</div>
+
+	<div id="date">
+		<p id="crDate"><i>Copyright &#169  " + year + " Jim Peraino. All rights reserved.</i></p> 
+	</div>
+
+	<div id="interface" class="noSelect">
+		<div id="title-block">
+			<h1>Hyperboloidal Motion</h1>
+			<h6>Fall 2011 | Harvard GSD | Instructor Cameron Wu</h6>
+		</div>
+	</div>
+
+
+	<div id="canvasPlaceholder"></div>
+	
+	<div id="section">
+	</div>
+
+	<div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.7.2/css/bootstrap-slider.min.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.7.2/bootstrap-slider.min.js"></script>
+
+	<link rel="stylesheet" href="static/styles.css">
+
+	<script src="js/three.js"></script>
+	<script src="js/controls/OrbitControls.js"></script>
+	<script src='js/main.js'></script>
+
+</body>
+
+</html>
