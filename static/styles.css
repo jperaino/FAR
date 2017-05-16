@@ -30,20 +30,17 @@
 }
 
 
-.alert
-{
-	margin: 20px;
-}
-
 h1 
 {
-	font-family: 'Cormorant Unicase', serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
 }
 
-h6
+h2
 {
-	font-family: 'Cormorant Infant', serif;
-	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
 }
 
 #jpLogoWhite.png
@@ -83,18 +80,7 @@ h6
 
 }
 
-#sliders {
-	position: absolute;
-	margin-top: 20vh;
-	margin-left: var(--leftSide);
-
-}
-
-
-#summary{
-	padding-top: 20px;
-	font-family: 'Cormorant Infant', serif;
-}
+/* -------------------- FOOTER DATE ---------------- */
 
 #date {
 	position: absolute;
@@ -110,17 +96,15 @@ h6
 	font-family: 'Cormorant Infant', serif;
 }
 
-#footer
-{
-	padding: var(--leftSide);
-	background-color: var(--footerGray);
-	height: 150px;
-}
 
-#parralax
-{
-	background-color: var(--primeDark);
-	
+
+/* -------------------- SLIDERS ---------------- */
+
+#sliders {
+	position: absolute;
+	margin-top: 20vh;
+	margin-left: var(--leftSide);
+
 }
 
 #ex1Slider #ex2Slider #ex3Slider .slider-selection {
@@ -148,22 +132,4 @@ h6
 
 .fadeJ {
 	display: none;
-}
-
-.section {
-	height: 90vh;
-	background-color: var(--secondLight);
-}
-
-#banner {
-	position: absolute;
-}
-
-.container-fluid {
-	width: 10vw;
- }
-
-.bannerImg {
-	width: 10%
-	height: auto;
 }
