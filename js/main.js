@@ -54,8 +54,9 @@ $(document).ready(function(){
 		var grid = new THREE.GridHelper( size, divisions, 0xffffff, 0xffffff );
 		grid.rotation.x = Math.PI/2;
 		grid.material.transparent = true;
-		grid.material.opacity = 0.4;
+		grid.material.opacity = 0.9;
 		scene.add( grid );
+		scene.fog = new THREE.FogExp2( 0xb2dfdb, 0.0045 );
 
 		
 
@@ -81,10 +82,13 @@ $(document).ready(function(){
 			var geometry = new THREE.Geometry();
 			geometry.vertices.push(new THREE.Vector3(-10,0,0));
 			geometry.vertices.push(new THREE.Vector3(0,10,0));
+			geometry.vertices.push(new THREE.Vector3(10,5,0));
 			geometry.vertices.push(new THREE.Vector3(10,0,0));
+			geometry.vertices.push(new THREE.Vector3(0,-5,0));
 			geometry.vertices.push(new THREE.Vector3(-10,0,0));
 
 			var line = new THREE.Line(geometry, lineMaterial);
+			line.name = "siteBoundary"
 
 			scene.add(line);
 		}

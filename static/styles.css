@@ -2,14 +2,14 @@
 :root{ 
 /* -------- COLORS ---------
 /*Primary Blues*/
---primeLight: #c3fdff;
---primeMedium: #90caf9;
---primeDark: #5d99c6;
+--primeLight: #e4ffff;
+--primeMedium: #b2dfdb;
+--primeDark: #81aba8;
 
 /*Secondary */
---secondLight: #b085f5;
---secondMedium: #7e57c2;
---secondDark: #4d2c91;
+--secondLight: #039be5;
+--secondMedium: #63ccff;
+--secondDark: #006db3;
 
 /*Grays*/
 --footerGray: #F5F5F5;
@@ -41,6 +41,17 @@ h2
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	font-weight: 300;
+}
+
+h3 
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+.result {
+	font-weight: 700;
 }
 
 #jpLogoWhite.png
