@@ -54,7 +54,7 @@ $(document).ready(function(){
 		var grid = new THREE.GridHelper( size, divisions, 0xffffff, 0xffffff );
 		grid.rotation.x = Math.PI/2;
 		grid.material.transparent = true;
-		grid.material.opacity = 0.9;
+		grid.material.opacity = 0.9  ;
 		scene.add( grid );
 		scene.fog = new THREE.FogExp2( 0xb2dfdb, 0.0045 );
 
